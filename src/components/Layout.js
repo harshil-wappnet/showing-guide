@@ -6,6 +6,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { HiOutlineArrowTopRightOnSquare } from "react-icons/hi2";
 import { SlArrowDown } from "react-icons/sl";
 import Agent from './Agent';
+import Agentdetails from './Agentdetails';
 function Layout() {
     return (
         <>
@@ -32,7 +33,46 @@ function Layout() {
                     </div>
                 </div>
             </div>
-            <Agent />
+            <div className='d-flex flex-row justify-content-between'>
+                <Agent />
+                <Agentdetails />
+            </div>
+
+
+
+
+            <div className='row'>
+                <div className='col-4'></div>
+                <div className='col-4'></div>
+                <div className='col-4'></div>
+            </div>
+
+
+
+
+            <div className='d-flex align-items-center justify-content-between'>
+                <h2>Harshil</h2>
+                <div className='d-flex align-items-center'>
+                    <div className='d-flex gap-3'>
+                        <IoIosNotificationsOutline fontSize={26} />
+                        <CiSearch fontSize={26} />
+                        <IoSettingsOutline fontSize={26} />
+                        <HiOutlineArrowTopRightOnSquare fontSize={26} />
+                    </div>
+                    <div className='d-flex align-items-center justify-content-between gap-5'>
+                        <div className='d-flex align-items-center'>
+
+                            <img src={logo} alt='profile pic' style={{ width: "80px", height: "80px" }} />
+                            <div className='d-flex flex-column '>
+                                <p className='fs-6 m-0'>Jack Hunter</p>
+                                <p className='rounded border-1 text-center fs-6 text-white m-0' style={{ backgroundColor: "#32de84" }}>Assistant</p>
+                            </div>
+                        </div>
+                        <SlArrowDown fontSize={17} />
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }
