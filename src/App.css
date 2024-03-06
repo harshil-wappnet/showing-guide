@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 .fs-12 {
   font-size: 12px;
 }
@@ -28,7 +33,7 @@ p {
   background-color: white;
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
 }
 
 .height-50 {
@@ -80,7 +85,7 @@ input {
 
 .image-container {
   position: relative;
-  left: -75px;
+  left: -55px;
   bottom: 2px;
 }
 

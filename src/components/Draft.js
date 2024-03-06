@@ -7,9 +7,9 @@ import { CiLocationOn } from "react-icons/ci";
 import { LiaBusinessTimeSolid } from "react-icons/lia";
 function Draft() {
     return (
-        <div className='row'>
-            <div className='draft-background-color col rounded pb-3'>
-                <div className='d-flex flex-row justify-content-between mt-2 p-3'>
+        <div>
+            <div className='draft-background-color rounded pb-3'>
+                <div className='d-flex flex-row justify-content-between align-items-center p-3'>
                     <h6>Draft</h6>
                     <button className='btn btn-primary'>View All</button>
                 </div>
@@ -23,7 +23,7 @@ function Draft() {
                             <LiaBusinessTimeSolid fontSize={16} /><span className='fs-10'>10:00 - 10:30</span>
                         </div>
                     </div>
-                    <div className='d-flex  justify-content-between align-items-center'>
+                    <div className='d-flex justify-content-lg-between align-items-center'>
                         <div>
                             <img src={logo} alt='profile pic' style={{ width: "40px", height: "40px", rounded: "50%" }} />
                             <span className='fs-12'>Ronald R.</span>

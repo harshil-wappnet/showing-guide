@@ -4,7 +4,7 @@ import image4 from '../assets/images/photo-1596836471905-0f4255f13eb8.avif'
 
 function Mlslist() {
     return (
-        <div className='draft-background-color col rounded pb-3'>
+        <div className='draft-background-color rounded pb-3'>
             <div className='d-flex flex-row justify-content-between mt-2 p-3'>
                 <h6>MLS List</h6>
                 <button className='btn btn-primary'>View All</button>
