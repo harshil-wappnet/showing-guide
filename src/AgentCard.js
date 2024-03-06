@@ -5,10 +5,10 @@ import { CiMail } from "react-icons/ci";
 
 function AgentCard() {
     return (
-        <div className='d-flex flex-row rounded mx-2 my-3' style={{ backgroundColor: "#E0FFFF" }}>
+        <div className='d-flex flex-row rounded mx-2 my-3' style={{ backgroundColor: "#C8C8C8" }}>
             <img src={logo} alt='profile pic' style={{ width: "70px", height: "70px", rounded: "50%" }} />
             <div>
-                <p className='fs-12 fw-medium'>Robert Fox</p>
+                <span className='fs-12 fw-medium'>Robert Fox</span>
                 <div className='d-flex flex-row mb-2'>
                     <FaFlag />
                     <span className='mx-1 fs-10'>+1 552 49 8277</span>

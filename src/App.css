@@ -14,30 +14,59 @@
   font-size: 10px;
 }
 
-.search {
-  border-color: white;
-  width: 150px;
-  position: relative;
-}
-
-.search::placeholder {
-  padding-left: 25px;
-  font-size: 12px;
-}
-
-.search-icon {
-  position: fixed;
-  margin-left: 5px;
-  margin-top: -3px;
-  z-index: 5;
-  font-size: larger;
-  font-weight: 500;
+.draft-background-color {
+  background-color: #c8c8c8;
 }
 
 p {
   margin-bottom: 0px;
 }
 
+.box {
+  width: 220px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.height-50 {
+  height: 50px;
+}
+
+.height-100 {
+  height: 100px;
+}
+
+.mlsnumbers {
+  width: 220px;
+  height: 100px;
+}
+
+.mls-btn-color {
+  background-color: #13274f;
+  color: white;
+}
+
+.mls-cart-color {
+  background-color: #818589;
+  color: white;
+}
+.mlsnumbers > input {
+  border: none;
+  outline: none;
+}
+
+input {
+  height: 40px;
+}
+.box > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
 .p-19 {
   padding: 19px;
 }
@@ -49,8 +78,57 @@ p {
   height: fit-content;
 }
 
+.image-container {
+  position: relative;
+  left: -75px;
+  bottom: 2px;
+}
+
+.mls-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.image {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.image1 {
+  left: 0;
+  z-index: 1;
+}
+
+.image2 {
+  left: 20px; /* Adjust spacing between image1 and image2 */
+  z-index: 2;
+}
+
+.image3 {
+  left: 40px; /* Adjust spacing between image2 and image3 */
+  z-index: 3;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .md-fs-8 {
     font-size: 8px; /* Adjust the font size according to your requirements */
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1162px) {
+  .mx-5 {
+    margin: 0px 12px !important;
+  }
+
+  .box {
+    width: 190px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
   }
 }
