@@ -137,3 +137,36 @@ input {
     padding: 5px;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .flexcolumnnone {
+    display: none !important;
+  }
+
+  .displayvisible {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1300px) {
+  .displayvisible {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .displayvisible {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1064px) {
+  .p-3 {
+    padding: 15px !important;
+  }
+
+  .gap-4 {
+    gap: 0rem !important;
+  }
+}

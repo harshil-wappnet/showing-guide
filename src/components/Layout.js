@@ -45,8 +45,18 @@ function Layout() {
                         <Mlsandnotes />
                         <Addnote />
                     </div>
+                    <div className='mt-4 d-flex flex-row justify-content-center gap-4'>
+                        <button className='btn btn-danger'>Cancel</button>
+                        <button className='btn btn-primary'>Next</button>
+                    </div>
+                    <div className='displayvisible mt-3'>
+                        <div className='d-flex flex-lg-row gap-5'>
+                            <Draft />
+                            <Mlslist />
+                        </div>
+                    </div>
                 </div>
-                <div className='d-flex flex-column gap-4'>
+                <div className='d-flex flex-column gap-4 flexcolumnnone '>
                     <Draft />
                     <Mlslist />
                 </div>
